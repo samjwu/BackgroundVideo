@@ -1,2 +1,5 @@
 index.html
 https://www.w3schools.com/tags/tag_header.asp
+
+styles.css
+https://www.w3schools.com/cssref/css3_pr_box-sizing.asp
