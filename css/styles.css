@@ -12,6 +12,12 @@ body {
     overflow-x: hidden;
 }
 
+.video {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 a:link {
     color: #ff8c00;
 }
