@@ -15,6 +15,8 @@ body {
 .container {
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0rem 1rem;
     text-align: center;
@@ -29,6 +31,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    z-index: 0;
 }
 
 .vid video {
@@ -49,13 +52,22 @@ body {
 
 .content {
     z-index: 2;
-    align-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -50px;
+    padding: 0px;
 }
 
 .content h1 {
     font-size: 3rem;
     margin-bottom: 0px;
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
 }
 
 a:link {
