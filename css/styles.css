@@ -25,12 +25,6 @@ body {
 }
 
 .vid {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
     z-index: 0;
 }
 
@@ -76,4 +70,106 @@ a {
     font-size: 1.5rem;
     padding: 0.5rem 2rem;
     border-radius: 10px;
+}
+
+@media (min-width: 1201px) {
+    .container {
+        padding: auto 3rem;
+    }
+
+    .vid {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1200px) {
+    .container {
+        padding: auto 3rem;
+    }
+
+    .vid {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    .container {
+        padding: auto 3rem;
+    }
+
+    .vid {
+        position: absolute;
+        top: 0px;
+        left: -15vw;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        padding: auto 3rem;
+    }
+
+    .vid {
+        position: absolute;
+        top: 0px;
+        left: -25vw;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: auto 3rem;
+    }
+
+    .vid {
+        position: absolute;
+        top: 0px;
+        left: -50vw;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        padding: auto 3rem;
+    }
+
+    .vid {
+        position: absolute;
+        top: 0px;
+        left: -75vw;
+        width: 100vw;
+        height: 100vh;
+        overflow: visible;
+        min-width: 100%;
+        min-height: 100%;
+    }
 }

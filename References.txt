@@ -11,3 +11,6 @@ https://www.w3schools.com/css/css_padding.asp
 https://www.w3schools.com/cssref/pr_dim_max-width.asp
 https://www.w3schools.com/cssref/pr_pos_z-index.asp
 https://css-tricks.com/centering-in-the-unknown/
+https://stackoverflow.com/questions/13637106/what-are-the-best-width-ranges-for-media-queries
+https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
